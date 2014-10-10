@@ -51,6 +51,16 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+        final Button btnWeb = (Button)findViewById(R.id.btnWeb);
+        btnWeb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, WebActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

@@ -40,4 +40,12 @@
         android:layout_centerHorizontal="true"
         android:clickable="false" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Activity"
+        android:id="@+id/btnWeb"
+        android:layout_below="@+id/btnMap"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
